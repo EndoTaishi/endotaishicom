@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className="text-3xl font-bold underline">
-          Hello world!
+          I'm Taishi Endo. This is my first typescript + Tailwind CSS project.
         </h1>
       </main>
     </div>
