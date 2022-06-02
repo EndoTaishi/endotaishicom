@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #27272A;
+  color: white;
 }
 
 .footer {
