@@ -22,31 +22,34 @@ const Home: NextPage = () => {
             />
       </div>
 
-      <div className="w-3/4 m-auto leading-7 index">
+      <div className="w-3/4 m-auto leading-7 text-center index">
             <p>
-              遠藤大志です。早稲田大学人間科学部に所属しています。
+              遠藤大志です。
             </p>
             <p>
-              しょうもないことを
+              早稲田大学人間科学研究科に所属しています。
+            </p>
+            <p>
+              ふとしたことを
               <a
                 href="https://twitter.com/endotaishi_"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @endotaishi_
+                Twitter
               </a>
-              というTwitterアカウントで発信しています。
+              で、
             </p>
             <p>
-              思想、考えを
+              つまらないことを
               <a
                 href="https://note.com/en_tai/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                endotaishi
+                note
               </a>
-              というnoteアカウントで発信しています。
+              に書いています。
             </p>
             <p>
               趣味はバスケ、釣りです。早稲田大学の
@@ -59,17 +62,20 @@ const Home: NextPage = () => {
               </a>
               というサークルで幹事長を務めていました。
             </p>
-            <p>
-              親友は
-              <a
-                href="https://twitter.com/bskkade21"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                戸田くん
-              </a>
-              です。
-            </p>
+            <h3>学歴</h3>
+            <dl>
+              <dt>2022/04</dt>
+              <dd>早稲田大学人間科学研究科 入学</dd>
+            </dl>
+            <dl>
+              <dt>2022/03</dt>
+              <dd>早稲田大学人間科学部 卒業</dd>
+            </dl>
+            <dl>
+              <dt>2019/04</dt>
+              <dd>早稲田大学人間科学部 入学</dd>
+            </dl>
+
             <h3>経歴</h3>
             <dl>
               <dt>2022/02~</dt>
@@ -78,10 +84,6 @@ const Home: NextPage = () => {
             <dl>
               <dt>2021/02~</dt>
               <dd>株式会社アングラーズ ジョイン</dd>
-            </dl>
-            <dl>
-              <dt>2019/04~</dt>
-              <dd>早稲田大学人間科学部 入学</dd>
             </dl>
           </div>
       </main>
