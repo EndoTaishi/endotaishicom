@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/assets/endotaishi.png" />
       </Head>
       <Container>
-        <div className="text-center">
+        <div className="flex items-center justify-center text-center mb-8">
           <Image 
           src="/assets/endotaishi.png" 
           width={200} 
