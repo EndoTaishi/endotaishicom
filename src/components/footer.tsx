@@ -16,6 +16,7 @@ const Footer = () => {
               href="https://twitter.com/endotaishi_"
               className="p-2 mr-2"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faTwitter} width="24" />
             </a>
