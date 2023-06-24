@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <Container>
         <div className="text-center mb-8">
-          <Image src="/../public/assets/endotaishi.png" width={200} height={200}/>
+          <Image src="/../public/assets/endotaishi.png" alt="endotaishi" width={200} height={200} />
         </div>
       </Container>
     </Layout>

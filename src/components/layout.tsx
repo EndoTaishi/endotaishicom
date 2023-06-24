@@ -1,8 +1,14 @@
+import { ReactNode } from 'react'
 import Header from '../components/header'
 import Meta from '../components/meta'
 import Footer from './footer'
 
-const Layout = ({ children }) => {
+type LayoutProps = {
+    children: ReactNode;
+  };
+  
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <>
         <Meta />
