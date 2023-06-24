@@ -1,6 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Write your own custom base styles here */
 @layer base {
