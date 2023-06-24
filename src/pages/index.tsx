@@ -14,12 +14,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/assets/endotaishi.png" />
       </Head>
       <Container>
-        <Image 
-        className="text-center mb-8"
-        src="/../public/assets/endotaishi.png" 
-        alt="endotaishi" 
-        width={200} 
-        height={200} />
+        <div className="text-center">
+          <Image 
+          src="/assets/endotaishi.png" 
+          width={200} 
+          height={200}
+          alt="endotaishi" />
+        </div>
       </Container>
     </Layout>
   )
