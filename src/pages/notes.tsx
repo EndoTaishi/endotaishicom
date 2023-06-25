@@ -1,18 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import ReactMarkdown from 'react-markdown'
+import Link from 'next/link'
 import Layout from '../components/layout'
 import Container from '../components/container'
-import markdownStyles from '../components/markdown-styles.module.css'
 import { CMS_NAME } from '../../lib/constants'
-
-const markdownString = `
-# TypeScript + Next.js + Tailwind CSS + Markdown
-## ここにブログ記事を表示したい
-### やり方を教えてください
-
-test test test
-`;
 
 const Note: NextPage = () => {
     return (
@@ -23,8 +14,15 @@ const Note: NextPage = () => {
           <link rel="icon" href="/assets/endotaishi.png" />
         </Head>
         <Container>
-            <div className={markdownStyles['markdown']}>
-                <ReactMarkdown>{markdownString}</ReactMarkdown>
+            <div className='text-sm mb-4 leading-none'>
+                <Link legacyBehavior href='/notes/way-to-think'>
+                    <a className="leading-none">思考法について</a>
+                </Link>
+            </div>
+            <div className='text-sm mb-4 leading-none'>
+                <Link legacyBehavior href='/notes'>
+                    <a className="leading-none">Coming Soon ...</a>
+                </Link>
             </div>
         </Container>
       </Layout>
