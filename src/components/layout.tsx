@@ -15,7 +15,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="py-3 md:p-6 relative">
             <div className="h-3 md:h-6 bg-white w-full fixed top-0 z-30" />
             <div className="h-3 md:h-6 bg-white w-full fixed bottom-0 z-30" />
-            <div className="bg-gray-100 dark:bg-gray-800 text-black dark:text-white">
+            <div className="bg-gray-100 dark:bg-gray-800 light:text-paleyYellow-light dark:text-paleyYellow-dark">
                 <Header />
                 <main>{children}</main>
                 <Footer />
