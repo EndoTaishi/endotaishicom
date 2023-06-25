@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <div className="flex justify-between items-center mt-20 py-20 border-t border-paleyYellow-dark">
+        <div className="flex justify-between items-center mt-20 py-20 border-t">
           <p>©2023 Taishi Endo</p>
           <div className="flex">
             <a
