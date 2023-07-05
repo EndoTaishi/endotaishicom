@@ -15,13 +15,8 @@ const Note: NextPage = () => {
         </Head>
         <Container>
             <div className='text-sm mb-4 leading-none'>
-                <Link legacyBehavior href='/notes/way-to-think'>
+                <Link legacyBehavior href='/notes/note'>
                     <a className="leading-none">思考法について</a>
-                </Link>
-            </div>
-            <div className='text-sm mb-4 leading-none'>
-                <Link legacyBehavior href='/notes'>
-                    <a className="leading-none">Coming Soon ...</a>
                 </Link>
             </div>
         </Container>

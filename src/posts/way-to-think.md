@@ -1,12 +1,3 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import ReactMarkdown from 'react-markdown'
-import Layout from '../../components/layout'
-import Container from '../../components/container'
-import markdownStyles from '../../components/markdown-styles.module.css'
-import { CMS_NAME } from '../../../lib/constants'
-
-const markdownString = `
 ---
 title: '〜思考の種 1〜思考法'
 excerpt: '考え方について'
@@ -58,24 +49,3 @@ date: '2021-09-14'
 メモの取り方ハウツー講座になりかけているが、やはり重要なことは**「話を聞いて(支流に流れていることを頭で理解しつつ、本流について)理解する」**ことである。頭の中で再構築していく。このメモは紙の上に書くことが重要なのではなく、**この形を意識して**話を聴いていくことが重要なのである。
 
 **気づいていないことを知り、自覚的に**話を理解していきたいものである。
-`;
-
-const Note: NextPage = () => {
-    return (
-      <Layout>
-        <Head>
-          <title>{ CMS_NAME }</title>
-          <meta name="description" content="endotaishi.com" />
-          <link rel="icon" href="/assets/endotaishi.png" />
-        </Head>
-        <Container>
-            <div className={markdownStyles['markdown']}>
-                <ReactMarkdown>{markdownString}</ReactMarkdown>
-            </div>
-        </Container>
-      </Layout>
-    )
-  }
-  
-  export default Note
-  
