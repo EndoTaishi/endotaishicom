@@ -19,6 +19,12 @@ const Note: NextPage = () => {
                     <a className="leading-none">思考法について</a>
                 </Link>
             </div>
+            <div className='text-sm mb-4 leading-none'>
+                <Link legacyBehavior href='/notes/note2'>
+                    <a className="leading-none">信頼性</a>
+                </Link>
+            </div>
+
         </Container>
       </Layout>
     )
