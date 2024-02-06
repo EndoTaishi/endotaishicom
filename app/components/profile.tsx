@@ -1,11 +1,10 @@
 import { Image } from '@chakra-ui/react'
-import { Skeleton, SkeletonCircle, SkeletonText } from '@chakra-ui/react'
 
 export function Profile() {
   return (
     <div className='grid md:grid-cols-5 gap-12'>
         <div className='relative col-span-5 md:col-span-2 mb-3'>
-            <Image className='object-cover h-48 w-48 sm:h-48 sm:w-48 md:h-64 md:w-64 m-3' 
+            <Image className='object-cover h-48 w-48 lg:h-64 lg:w-64 m-3' 
                 borderRadius='full'
                 src='/Profile.JPG'
             />

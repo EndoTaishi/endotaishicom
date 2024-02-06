@@ -13,10 +13,16 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "date-fns": "^3.3.1",
     "framer-motion": "^11.0.3",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "next": "14.1.0",
+    "postcss-apply": "^0.12.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanels, TabPanel } from "@chakra-ui/react";
 import { Profile } from "./components/profile";
+import { Lists } from "./components/lists";
 import "./globals.css";
 
 export default function Home() {
@@ -8,19 +9,19 @@ export default function Home() {
       <Tabs variant='soft-rounded' colorScheme='blue'>
         <div className="flex justify-center mb-6">
           <TabList>
-            <Tab className="text-xl">ABOUT</Tab>
             <Tab className="text-xl">HOME</Tab>
+            <Tab className="text-xl">ABOUT</Tab>
           </TabList>
         </div>
         <TabPanels className="flex justify-center">
           <TabPanel>
-            <Profile />
+            <Lists />
           </TabPanel>
           <TabPanel>
-            <p>To be prepared.</p>
+            <Profile />
           </TabPanel>
         </TabPanels>
       </Tabs>
     </main>
   );
-}
+};
