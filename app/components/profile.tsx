@@ -1,6 +1,6 @@
 import { Image } from '@chakra-ui/react'
 
-export function Profile() {
+export default function Profile() {
   return (
     <div className='grid md:grid-cols-5 gap-12'>
         <div className='col-span-5 md:col-span-2 flex justify-center'>

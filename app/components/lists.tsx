@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Date from "@/components/date"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-
 import { getSortedPostsData } from '@/lib/posts'
 
 type AllPostsData = {
@@ -10,7 +9,7 @@ type AllPostsData = {
     id: string
 }[]
 
-export function Lists() {
+export default function Lists() {
     const allPostsData: AllPostsData = getSortedPostsData()
 
     return (

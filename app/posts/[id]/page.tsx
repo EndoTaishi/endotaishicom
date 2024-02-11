@@ -43,6 +43,8 @@ export default async function Post({ params }: Props) {
         className='markdown text-gray-600 text-xl'
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
+
+      <a href='/' className='flex justify-center text-lg pt-6 underline'>back</a>
     </div>
   )
 }
