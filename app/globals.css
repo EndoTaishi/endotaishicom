@@ -102,4 +102,5 @@ h3 {
   padding: 1.5rem 0.5rem;
   background-color: #364549;
   color: #e3e3e3;
+  white-space: pre-wrap;
 }
