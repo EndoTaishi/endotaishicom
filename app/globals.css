@@ -94,3 +94,12 @@ h3 {
   line-height: 1.75rem;
   padding-left: 1.5rem;
 }
+
+.markdown code {
+  display: block;
+  font-size: .8rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem 0.5rem;
+  background-color: #364549;
+  color: #e3e3e3;
+}
