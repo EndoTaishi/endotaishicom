@@ -10,16 +10,16 @@ export default function Home() {
         <Tabs variant='soft-rounded' colorScheme='blue'>
           <div className="flex justify-center mb-6">
             <TabList>
-              <Tab className="text-xl">HOME</Tab>
               <Tab className="text-xl">ABOUT</Tab>
+              <Tab className="text-xl">HOME</Tab>
             </TabList>
           </div>
           <TabPanels className="flex justify-center">
             <TabPanel>
-              <Lists />
+              <Profile />
             </TabPanel>
             <TabPanel>
-              <Profile />
+              <Lists />
             </TabPanel>
           </TabPanels>
         </Tabs>
