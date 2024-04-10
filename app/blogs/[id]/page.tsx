@@ -1,7 +1,7 @@
-import Date from '@/components/date'
+import Date from '@/app/lib/date'
 import '@/app/ui/globals.css'
 
-import { getAllPostIds, getPostData } from '@/lib/posts'
+import { getAllPostIds, getPostData } from '@/app/lib/posts'
 
 type Params = {
   id: string

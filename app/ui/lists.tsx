@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Date from "@/components/date"
+import Date from "@/app/lib/date"
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
-import { getSortedPostsData } from '@/lib/posts'
+import { getSortedPostsData } from '@/app/lib/posts'
 
 type AllPostsData = {
     date: string
