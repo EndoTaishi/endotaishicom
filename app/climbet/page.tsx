@@ -31,9 +31,9 @@ function ClimBet() {
           平年値とは、西暦の一の位が1の年から30年後の一の位が0で終わる年までの、30年間分の気象データについて算出した平均値のことを言います。<br/>
           平年差とは、ある期間における気象データの平均値と、同じ期間における平年値の期間平均との差分のことを指します。
           </p>
-          <p className="font-roboto text-blue-600 text-xs underline mt-2">
+          <a href='https://www.data.jma.go.jp/stats/data/mdrr/tenkou/indexTenkou.html?gazou=tem5d00&dhi=0' className="font-roboto text-blue-600 text-xs underline mt-2">
             ソース: https://www.data.jma.go.jp/stats/data/mdrr/tenkou/indexTenkou.html?gazou=tem5d00&dhi=0
-          </p>
+          </a>
           <p className="font-roboto text-blue-600 text-xs mt-2">
             回答期限: 4月11日 23:59
           </p>
