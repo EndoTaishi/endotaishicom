@@ -1,9 +1,16 @@
 import "@/app/ui/globals.css";
 import { Image } from '@chakra-ui/react'
+import Header from "./ui/header";
+import Footer from "./ui/footer";
+import TabLinks from "./ui/tab-links";
+import Providers from './providers'
 
 export default function Home() {
   return (
     <>
+    <Providers>
+      <Header />
+      <TabLinks />
       <main className="flex justify-center px-4 pb-12 w-3/5 sm:w-4/5 m-auto">
         <div className='grid md:grid-cols-5 gap-12'>
           <div className='col-span-5 md:col-span-2 flex justify-center'>
@@ -26,6 +33,8 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <Footer />
+    </Providers>
     </>
   );
 };
