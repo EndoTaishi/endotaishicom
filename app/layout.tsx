@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./ui/header";
+import Footer from "./ui/footer";
+import TabLinks from "./ui/tab-links";
 import Providers from './providers'
-import "./globals.css";
+import "@/app/ui/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode, }
       <body className="h-full bg-gray-100">
         <Providers>
           <Header />
+          <TabLinks />
           {children}
           <Footer />
         </Providers>
