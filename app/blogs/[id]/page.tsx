@@ -1,5 +1,5 @@
 import Date from '@/components/date'
-import '@/app/globals.css'
+import '@/app/ui/globals.css'
 
 import { getAllPostIds, getPostData } from '@/lib/posts'
 
@@ -44,7 +44,7 @@ export default async function Post({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
 
-      <a href='/' className='flex justify-center text-lg pt-6 underline'>back</a>
+      <a href='/blogs' className='flex justify-center text-lg pt-6 underline'>back</a>
     </div>
   )
 }

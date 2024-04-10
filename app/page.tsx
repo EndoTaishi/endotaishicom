@@ -1,28 +1,30 @@
-import { Tab, Tabs, TabList, TabPanels, TabPanel } from "@chakra-ui/react";
-import Lists from "./components/lists";
-import Profile from "./components/profile";
-import "./globals.css";
+import "@/app/ui/globals.css";
+import { Image } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <>
-      <main className="flex justify-center px-4 pt-40 pb-12 w-3/5 sm:w-4/5 m-auto">
-        <Tabs variant='soft-rounded' colorScheme='blue'>
-          <div className="flex justify-center mb-6">
-            <TabList>
-              <Tab className="text-xl">ABOUT</Tab>
-              <Tab className="text-xl">HOME</Tab>
-            </TabList>
+      <main className="flex justify-center px-4 pb-12 w-3/5 sm:w-4/5 m-auto">
+        <div className='grid md:grid-cols-5 gap-12'>
+          <div className='col-span-5 md:col-span-2 flex justify-center'>
+              <Image className='object-cover h-40 w-40 lg:h-72 lg:w-72 m-3 flex justify-center items-center' 
+                  borderRadius='full'
+                  src='/Profile.JPG'
+              />
           </div>
-          <TabPanels className="flex justify-center">
-            <TabPanel>
-              <Profile />
-            </TabPanel>
-            <TabPanel>
-              <Lists />
-            </TabPanel>
-          </TabPanels>
-        </Tabs>
+          <div className='col-span-5 md:col-span-3 '>
+              <h1 className='text-3xl pb-3 flex justify-center'>Endo Taishi</h1>
+              <h3 className='text-2xl font-bold mb-3'>経歴</h3>
+              <div className='mb-6'>
+                  <p>2023/04~</p>
+                  <p>早稲田大学大学院 人間科学研究科 修士課程</p>
+              </div>
+              <h3 className='text-2xl font-bold mb-3'>目的</h3>
+              <div className='mb-6'>
+                  <p>このサイトは、自分の技術力を向上させるためにNext.js、TypeScript、Tailwind CSS、Chakra UIを使って開発し、Vercelでホスティングしています。</p>
+              </div>
+          </div>
+        </div>
       </main>
     </>
   );
