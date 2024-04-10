@@ -40,7 +40,7 @@ function ClimBet() {
         </div>
 
         <div>
-            <p>現在のオッズ：</p>
+            <p>現在のオッズ(4月11日am2:50現在)：</p>
             <p>YES：1.3倍</p>
             <p>NO ：3.0倍</p>
         </div>
