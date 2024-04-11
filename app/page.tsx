@@ -7,7 +7,7 @@ import Providers from './providers'
 
 export default function Home() {
   return (
-    <>
+    <div className="h-screen">
       <Providers>
         <Header />
         <TabLinks />
@@ -37,6 +37,6 @@ export default function Home() {
         </div>
         <Footer />
       </Providers>
-    </>
+    </div>
   );
 };
