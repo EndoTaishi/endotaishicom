@@ -30,7 +30,7 @@ function ClimBet() {
           <p className="font-roboto text-blue-800 text-sm">
             ppm（:parts per million）は濃度を表す単位です。全球の二酸化炭素濃度の傾向はGlobal Monitoring Laboratory (GML)によって観測されています。
           </p>
-          <a href='https://www.data.jma.go.jp/stats/data/mdrr/tenkou/indexTenkou.html?gazou=tem5d00&dhi=0' className="font-roboto text-blue-600 text-xs mt-2">
+          <a href='https://gml.noaa.gov/ccgg/trends/gl_trend.html' className="font-roboto text-blue-600 text-xs mt-2">
             ソース: <span className="underline">https://gml.noaa.gov/ccgg/trends/gl_trend.html</span>
           </a>
           <p className="font-roboto text-red-600 text-xs mt-2">
