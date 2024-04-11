@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Date from "@/app/lib/date";
+import TabLinks from "@/app/ui/tab-links";
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react';
 import { getSortedPostsData } from '@/app/lib/posts';
 
@@ -14,6 +15,7 @@ export default function Blogs() {
 
     return (
         <>
+            <TabLinks />
             <h2 className='text-2xl font-bold flex justify-center'>Articles</h2>
             <div className="w-screen flex justify-center items-center">
                 <div className="w-3/5">

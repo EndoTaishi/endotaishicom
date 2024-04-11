@@ -11,7 +11,7 @@ export default function Home() {
       <Providers>
         <Header />
         <TabLinks />
-        <main className="flex justify-center px-4 pb-12 w-3/5 sm:w-4/5 m-auto">
+        <div className="flex justify-center px-4 pb-12 w-3/5 sm:w-4/5 m-auto">
           <div className='grid md:grid-cols-5 gap-12'>
             <div className='col-span-5 md:col-span-2 flex justify-center'>
               <Image 
@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
             </div>
           </div>
-        </main>
+        </div>
         <Footer />
       </Providers>
     </>

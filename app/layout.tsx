@@ -13,9 +13,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children, }: { children: React.ReactNode, }) {
   return (
-    <html>
-      <body className={`${MPlus1Code.className} antialiased full bg-gray-100`}>
-          <Providers>{children}</Providers>
+    <html lang='ja'>
+      <body>
+        <main className={`${MPlus1Code.className} antialiased full bg-gray-100`}>
+            <Providers>{children}</Providers>
+        </main>
       </body>
     </html>
   )

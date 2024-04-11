@@ -24,7 +24,7 @@ export default function TabLinks() {
 
   return (
     <>
-      <main className="flex justify-center px-4 pt-40 w-3/5 sm:w-4/5 m-auto">
+      <div className="flex justify-center px-4 pt-40 w-3/5 sm:w-4/5 m-auto">
         <Tabs variant='soft-rounded' colorScheme='blue' index={tabIndex}>
           <div className="flex justify-center mb-6">
             <TabList>
@@ -37,7 +37,7 @@ export default function TabLinks() {
             </TabList>
           </div>
         </Tabs>
-      </main>
+      </div>
     </>
   );
 };
