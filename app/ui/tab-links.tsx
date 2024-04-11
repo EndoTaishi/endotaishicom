@@ -1,6 +1,6 @@
 'use client';
 
-import { Tab, Tabs, TabList, TabPanels, TabPanel } from "@chakra-ui/react";
+import { Tab, Tabs, TabList } from "@chakra-ui/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from 'react';
