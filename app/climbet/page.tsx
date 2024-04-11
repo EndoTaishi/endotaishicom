@@ -71,7 +71,7 @@ function ClimBet() {
               +
             </button>
           </div>
-          <a href={`https://docs.google.com/forms/d/e/1FAIpQLSdLtvq9IEF3fPnXht-OTzup1aMxDV9xorR-YBvrE0mkAUGoww/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-blue-900 rounded px-8 py-2 w-full">
+          <a href={`https://docs.google.com/forms/d/e/1FAIpQLScDMXreCsTiam013SbWXelHhJdHNK6ZrO2mP8hyiwM-TxEK6Q/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-blue-900 rounded px-8 py-2 w-full">
             賭けてみる!!
           </a>
         </div>
