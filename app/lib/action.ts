@@ -21,12 +21,12 @@ export async function createPost(formData: FormData){
         tags: formData.get('tags'),
         content: formData.get('content'),
     });
-    const tagArray = tags.split(',').map((tag) => tag.trim());
+    const tagsArray = `{${tags}}`
     const date = new Date().toISOString().split('T')[0];
 
     await sql`
         INSERT INTO posts (title, tags, content, date)
-        VALUES (${title}, ${tagArray}, ${content}, ${date})
+        VALUES (${title}, ${tagsArray}, ${content}, ${date})
     `;
 
     revalidatePath('/posts');
@@ -41,11 +41,11 @@ export async function editPost(id: string, formData: FormData) {
         tags: formData.get('tags'),
         content: formData.get('content'),
     });
-    const tagArray = tags.split(',').map((tag) => tag.trim());
+    const tagsArray = `{${tags}}`;
     
     await sql`
         UPDATE posts
-        SET title = ${title}, tags = ${tagArray}, content = ${content}
+        SET title = ${title}, tags = ${tagsArray}, content = ${content}
         WHERE id = ${id}
     `;
 
