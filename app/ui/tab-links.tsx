@@ -14,7 +14,7 @@ export default function TabLinks() {
       case '/':
         setTabIndex(0);
         break;
-      case '/blogs':
+      case '/posts':
         setTabIndex(1);
         break;
       default:
@@ -32,7 +32,7 @@ export default function TabLinks() {
                 <Link href="/">HOME</Link>
               </Tab>
               <Tab className="text-xl">
-                <Link href="/blogs">BLOGS</Link>
+                <Link href="/posts">BLOGS</Link>
               </Tab>
             </TabList>
           </div>
