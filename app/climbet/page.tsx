@@ -41,8 +41,15 @@ export default function ClimBet() {
 
           <div>
             <p>最終オッズ(4月12日am20:30現在)：</p>
-            <p>YES：1.0倍</p>
-            <p>NO ：1.0倍</p>
+            <p>YES：2.5倍</p>
+            <p>NO ：1.6倍</p>
+          </div>
+
+          { /* hint */}
+          <div className="flex flex-col bg-blue-100 p-4 rounded my-2">
+            <p className="font-roboto text-blue-800 text-sm">
+              <b>HINT:</b>4/8〜4/13の気温の平年差は1.6℃でした。思ったより低いね。
+            </p>
           </div>
 
           <div className="flex flex-col items-center my-4 mb-8">
