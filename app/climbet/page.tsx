@@ -40,7 +40,7 @@ export default function ClimBet() {
           </div>
 
           <div>
-            <p>最終オッズ(4月12日am20:30現在)：</p>
+            <p>最終オッズ(4月14日pm23:59現在)：</p>
             <p>YES：2.5倍</p>
             <p>NO ：1.6倍</p>
           </div>
@@ -79,8 +79,8 @@ export default function ClimBet() {
                 +
               </button>
             </div>
-            <a href={`https://docs.google.com/forms/d/e/1FAIpQLSeFA3O1MGYKyY7qltkar1gFz7O1gD8JRNcx-4xp5LdVFAnTTA/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-blue-900 rounded px-8 py-2 w-full">
-              賭けてみる!!
+            <a href={`https://docs.google.com/forms/d/e/1FAIpQLSeFA3O1MGYKyY7qltkar1gFz7O1gD8JRNcx-4xp5LdVFAnTTA/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-yellow-900 rounded px-8 py-2 w-full">
+            終了しました
             </a>
           </div>
 
@@ -105,7 +105,7 @@ export default function ClimBet() {
           </div>
 
           <div>
-            <p>現在のオッズ(4月12日am20:30現在)：</p>
+            <p>最終オッズ(4月12日pm23:59現在)：</p>
             <p>YES：1.5倍</p>
             <p>NO ：3.0倍</p>
           </div>
@@ -137,8 +137,8 @@ export default function ClimBet() {
                 +
               </button>
             </div>
-            <a href={`https://docs.google.com/forms/d/e/1FAIpQLScDMXreCsTiam013SbWXelHhJdHNK6ZrO2mP8hyiwM-TxEK6Q/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-blue-900 rounded px-8 py-2 w-full">
-              賭けてみる!!
+            <a href={`https://docs.google.com/forms/d/e/1FAIpQLScDMXreCsTiam013SbWXelHhJdHNK6ZrO2mP8hyiwM-TxEK6Q/viewform?usp=pp_url&entry.8256214=${betAmount}`} className="flex justify-center font-roboto text-white bg-yellow-900 rounded px-8 py-2 w-full">
+            終了しました
             </a>
           </div>
 
@@ -164,7 +164,7 @@ export default function ClimBet() {
           </div>
 
           <div>
-            <p>最終オッズ(4月11日am23:59現在)：</p>
+            <p>最終オッズ(4月11日pm23:59現在)：</p>
             <p>YES：5.0倍</p>
             <p>NO ：1.2倍</p>
           </div>
